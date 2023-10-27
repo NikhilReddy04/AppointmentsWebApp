@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Roboto;
+  padding: 10%;
+}
+
+.upper-container {
+  display: flex;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.lower-container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-image-container {
+  width: 50%;
+}
+.upper-text-container {
+  width: 50%;
+}
+
+.main-image {
+  width: 100%;
+}
+.appointments-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.lower-container-main-heading {
+  color: #171f46;
+  font-size: 26px;
+}
+
+.starred-button {
+  background-color: transparent;
+  border: solid 1px #8b5cf6;
+  color: #8b5cf6;
+  width: 100px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.input-element {
+  width: 80%;
+  padding: 5px;
+  border-radius: 3px;
+  border: solid 1px #b5b7c4;
+  outline: none;
+}
+.label-element {
+  color: #b5b7c4;
+  font-size: 12px;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  border: none;
+  color: #ffffff;
+  padding: 5px;
+  margin-top: 5px;
+  width: 55px;
+  border-radius: 10px;
+}

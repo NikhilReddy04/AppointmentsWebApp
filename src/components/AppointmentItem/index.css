@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.appointment-card {
+  margin: 10px;
+  display: flex;
+  border: solid 1px #b5b7c4;
+  padding: 5px;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+
+.appointment-card-title {
+  color: #171f46;
+  font-size: 22px;
+}
+
+.appointment-card-para {
+  color: #9897f0;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  margin-top: 3px;
+}
